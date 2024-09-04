@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6637FA22C7F994200154FF4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6637FA12C7F994200154FF4 /* GameViewController.swift */; };
 		B6C5404C2C7D0221006493E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5404B2C7D0221006493E1 /* AppDelegate.swift */; };
 		B6C5404E2C7D0221006493E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5404D2C7D0221006493E1 /* SceneDelegate.swift */; };
 		B6C540502C7D0221006493E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5404F2C7D0221006493E1 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6637FA12C7F994200154FF4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B6C540482C7D0220006493E1 /* GuessingMSLC2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingMSLC2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C5404B2C7D0221006493E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6C5404D2C7D0221006493E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				B6C5404D2C7D0221006493E1 /* SceneDelegate.swift */,
 				B6C5404F2C7D0221006493E1 /* ViewController.swift */,
 				B6C540512C7D0221006493E1 /* Main.storyboard */,
+				B6637FA12C7F994200154FF4 /* GameViewController.swift */,
 				B6C540542C7D0223006493E1 /* Assets.xcassets */,
 				B6C540562C7D0223006493E1 /* LaunchScreen.storyboard */,
 				B6C540592C7D0223006493E1 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6637FA22C7F994200154FF4 /* GameViewController.swift in Sources */,
 				B6C540502C7D0221006493E1 /* ViewController.swift in Sources */,
 				B6C5404C2C7D0221006493E1 /* AppDelegate.swift in Sources */,
 				B6C5404E2C7D0221006493E1 /* SceneDelegate.swift in Sources */,
