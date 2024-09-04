@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GuessModel : NSObject
 
+-(Boolean)makeGuess:(NSInteger)guess;
+
 @end
 
 NS_ASSUME_NONNULL_END
