@@ -9,6 +9,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+//let user know if the guess is correct/high/low
+typedef enum: NSUInteger {
+    GuessIsCorrect,
+    GuessIsHigh,
+    GuessIsLow,
+} GuessValue;
+
+
 @interface GuessModel : NSObject
 
 -(Boolean)makeGuess:(NSInteger)guess;
